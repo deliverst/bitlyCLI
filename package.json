@@ -1,7 +1,7 @@
 {
   "name": "bitlytesting",
   "version": "1.0.0",
-  "description": "",
+  "description": "Whenever I start a new project, I don't know what to write for the first commit. After doing a “git init” there is technically nothing there...",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,10 @@
   "keywords": [],
   "author": "deliverst <deliverst@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "bitlyShort": "./bin/global.js"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "bitly": "^7.1.2",
     "clipboard-copy": "^4.0.1",
