@@ -21,5 +21,23 @@ function shortBitly() {
 }
 
 
+shortBitly()
 
 module.exports = { shortBitly }
+
+
+// const url = 'http://1drv.ms/u/s!Agv-ekPRWcr4nhybVvR3-BmECVBV?e=osvl0E'
+// const regex1 = /^http?(s)?:\/\/www\./.test(url)
+// const regex2 = /^http?(s)?:\/\//
+
+
+
+// if (regex1) {
+//     console.log('true')
+//     console.log(url)
+// } else {
+//     const start = url.match(regex2)
+//     const end = url.replace(regex2,'')
+//     let completeUrl = `${start[0]}www.${end}`
+//     console.log(completeUrl)
+// }

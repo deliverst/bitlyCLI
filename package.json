@@ -10,7 +10,7 @@
   "author": "deliverst <deliverst@gmail.com>",
   "license": "MIT",
   "bin": {
-    "bitlyShort": "./bin/global.js"
+    "bitlyShort": "bin/global.js"
   },
   "preferGlobal": true,
   "dependencies": {
@@ -20,5 +20,14 @@
     "copy-to-clipboard": "^3.3.1",
     "dotenv": "^16.0.0",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deliverst/bitlyCLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deliverst/bitlyCLI/issues"
+  },
+  "homepage": "https://github.com/deliverst/bitlyCLI#readme"
 }
