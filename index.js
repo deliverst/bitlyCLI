@@ -21,7 +21,24 @@ function shortBitly() {
 }
 
 
-shortBitly()
+function getInfo(){
+	bitly.getBitlink("https://bit.ly/3qQQCBM").then(result=>{
+		console.log(result)
+	})
+}
+
+
+function getClicks(){
+	bitly.clicks("http://bit.ly/3VBLKgH").then(res =>{
+        const totalClicks = res.link_clicks.reduce((acum,click) => {
+            return acum + click.clicks
+        },0)
+        console.log(totalClicks)
+    })
+	// clicks(item, unit = 'day', units = -1, size = 50, unit_reference)
+}
+
+getClicks()
 
 module.exports = { shortBitly }
 
